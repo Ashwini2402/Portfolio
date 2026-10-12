@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashwini Durai · Full Stack Developer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+<meta name="description" content="Portfolio of Ashwini Durai, MCA graduate and Full Stack Developer.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-inner">
+    <span class="loader-bracket">&lt;</span>
+    <span class="loader-name">AD</span>
+    <span class="loader-bracket">/&gt;</span>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- Scroll progress -->
+<div id="scroll-progress"></div>
+
+<!-- Nav -->
+<header class="site-header" id="site-header">
+  <nav class="navbar">
+    <a href="#hero" class="nav-logo">Ashwini<span class="dot">.</span>durai</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about" class="nav-link"><span class="tag">01</span>About</a></li>
+      <li><a href="#skills" class="nav-link"><span class="tag">02</span>Skills</a></li>
+      <li><a href="#projects" class="nav-link"><span class="tag">03</span>Projects</a></li>
+      <li><a href="#Experience" class="nav-link"><span class="tag">04</span>Experience</a></li>
+      <li><a href="#education" class="nav-link"><span class="tag">05</span>Education</a></li>
+      <li><a href="#contact" class="nav-link"><span class="tag">06</span>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-grid"></div>
+
+    <div class="hero-content">
+      <div class="hero-text" data-aos="fade-up">
+        <p class="eyebrow"><span class="pulse-dot"></span> open to opportunities</p>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Ashwini Durai</span>
+        </h1>
+        <div class="hero-role">
+          <span class="terminal-prompt">$</span>
+          <span id="typed-role" class="typed-role"></span><span class="cursor">|</span>
+        </div>
+        <p class="hero-sub">MCA Graduate building clean, responsive web experiences with Java, Python &amp; JavaScript — ready to write my first line of production code.</p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+          <a href="http://127.0.0.1:5500/Ashwini%20Resume.pdf" download class="btn btn-ghost"><i class="fa-solid fa-download"></i> Download Resume</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/ashwini-durai-0b0363301" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:ashusep2004@gmail.com  aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-aos="fade-left" data-aos-delay="150">
+        <div class="profile-frame">
+          <div class="profile-glow"></div>
+          <img src="Image.jpg\My image.jpeg" alt="" class="profile-img" height="500" width="500">
+          <div class="floating-chip chip-1"><i class="fa-brands fa-java"></i> Java</div>
+          <div class="floating-chip chip-2"><i class="fa-brands fa-python"></i> Python</div>
+          <div class="floating-chip chip-3"><i class="fa-brands fa-js"></i> JavaScript</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-tag">// 01 — about</span>
+      <h2 class="section-title">About Me</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card glass" data-aos="fade-up" data-aos-delay="100">
+        <p>
+          I'm a passionate <strong>MCA graduate</strong> and fresher <strong>Full Stack Developer</strong>
+          with hands-on knowledge of HTML, CSS, JavaScript, Java, Python, SQL, and the basics of Spring Boot.
+          I enjoy building responsive websites and I'm constantly learning new technologies to sharpen my craft.
+        </p>
+        <p>
+          I'm currently looking for an opportunity to start my software development career, where I can contribute,
+          learn from experienced engineers, and grow into a well-rounded developer.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="8.6" data-decimal="true">0</span>
+            <span class="stat-label">CGPA (MCA)</span>
+          </div>
+           <div class="stat">
+            <span class="stat-num" data-count="7.9" data-decimal="true">0</span>
+            <span class="stat-label">CGPA (Bsc)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="9">0</span>
+            <span class="stat-label">Core Technologies</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-side" data-aos="fade-up" data-aos-delay="200">
+        <div class="info-card glass">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <h4>Education</h4>
+            <p>Master of Computer Applications (MCA)</p>
+            <p>Bachelor Of Computer Science (Bsc)</p>
+          </div>
+        </div>
+        <div class="info-card glass">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Location</h4>
+            <p> Chennai</p>
+            <p>Bengalore</p>
+          </div>
+        </div>
+  
+        <div class="info-card glass">
+          <i class="fa-solid fa-bullseye"></i>
+          <div>
+            <h4>Looking for</h4>
+            <p>Fresher Full Stack / Software Developer roles</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-tag">// 02 — skills</span>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="0">
+        <i class="fa-brands fa-html5"></i>
+        <h4>HTML5</h4>
+        <div class="skill-bar"><div class="skill-fill" style="--level:90%"></div></div>
+      </div>
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="50">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h4>CSS3</h4>
+        <div class="skill-bar"><div class="skill-fill" style="--level:88%"></div></div>
+      </div>
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="100">
+        <i class="fa-brands fa-js"></i>
+        <h4>JavaScript</h4>
+        <div class="skill-bar"><div class="skill-fill" style="--level:82%"></div></div>
+      </div>
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="150">
+        <i class="fa-brands fa-java"></i>
+        <h4>Java</h4>
+        <div class="skill-bar"><div class="skill-fill" style="--level:80%"></div></div>
+      </div>
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="200">
+        <i class="fa-brands fa-python"></i>
+        <h4>Python</h4>
+        <div class="skill-bar"><div class="skill-fill" style="--level:78%"></div></div>
+      </div>
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="250">
+        <i class="fa-solid fa-database"></i>
+        <h4>SQL</h4>
+        <div class="skill-bar"><div class="skill-fill" style="--level:75%"></div></div>
+      </div>
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="300">
+        <i class="fa-solid fa-leaf"></i>
+        <h4>Spring Boot <span class="badge-basic">Basics</span></h4>
+        <div class="skill-bar"><div class="skill-fill" style="--level:60%"></div></div>
+      </div>
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="350">
+        <i class="fa-brands fa-git-alt"></i>
+        <h4>Git &amp; GitHub</h4>
+        <div class="skill-bar"><div class="skill-fill" style="--level:80%"></div></div>
+      </div>
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="400">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h4>Responsive Design</h4>
+        <div class="skill-bar"><div class="skill-fill" style="--level:85%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-tag">// 03 — projects</span>
+      <h2 class="section-title">Featured Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card glass" data-aos="fade-up" data-aos-delay="0">
+        <div class="project-img" style="background:linear-gradient(135deg,#312e81,#7c3aed);">
+          <img src="https://useinsider.com/assets/media/2023/10/360-degree-customer-view-2-1024x683.png" alt="">
+        </div>
+        <div class="project-body">
+          <h3>Smart Product Visual Preview</h3>
+          <p>An interactive web module that lets users preview product visuals dynamically, built with a focus on clean UI and smooth responsiveness.</p>
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-ghost"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-img" style="background:linear-gradient(135deg,#1e3a8a,#6366f1);">
+          <img src="Image.jpg/Smartguard.jpeg"alt="" style="margin-top: 8%;">
+        </div>
+        <div class="project-body">
+          <h3>AI Powered NLP Phishing URL Detection</h3>
+          <p>Detects phishing URLs using NLP and TF-IDF based text feature extraction, achieving close to 95% detection accuracy on test data.</p>
+          <div class="tech-tags">
+            <span>Python</span><span>NLP</span><span>TF-IDF</span><span>ML</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-ghost"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-img" style="background:linear-gradient(135deg,#701a75,#a855f7);">
+          <img src="Image.jpg\Biotouch Pass.jpeg" alt="" style="margin-top: 5%;">
+        </div>
+        <div class="project-body">
+          <h3>Bio TouchPass Authentication System</h3>
+          <p>A Java-based biometric authentication system that secures logins through fingerprint-style verification for stronger access control.</p>
+          <div class="tech-tags">
+            <span>Java</span><span>Biometrics</span><span>Security</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-ghost"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+  <!-- EXPERIENCE -->
+<section id="experience" class="section section-alt">
+  <div class="section-head" data-aos="fade-up">
+    <span class="section-tag">// 04 — experience</span>
+    <h2 class="section-title">Experience & Training</h2>
+  </div>
+
+  <div class="timeline">
+
+    <div class="timeline-item glass" data-aos="fade-up">
+      <div class="timeline-icon">
+        <i class="fa-solid fa-briefcase"></i>
+      </div>
+      <div class="timeline-content">
+        <h3>Node.js Internship</h3>
+        <h4>HSDP Techno Solution</h4>
+        <p>
+          Successfully completed a Node.js Internship by working on a real-time project.
+          Gained hands-on experience in backend development, REST APIs, database integration,
+          debugging and team collaboration.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item glass" data-aos="fade-up" data-aos-delay="100">
+      <div class="timeline-icon">
+        <i class="fa-solid fa-code"></i>
+      </div>
+      <div class="timeline-content">
+        <h3>Java Full Stack Web Development Internship</h3>
+        <h4>QSpiders</h4>
+        <p>
+          Currently pursuing Java Full Stack Web Development, learning Java, JDBC, Servlets,
+          JSP, Spring Boot, Hibernate, HTML, CSS, JavaScript, SQL and React through hands-on projects.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- EDUCATION -->
+   <section id="education" class="section section-alt">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-tag">// 05 — education</span>
+      <h2 class="section-title">Education</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item glass" data-aos="fade-up">
+        <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="timeline-content">
+          <h3>Bachelor of  Computer Scienec (BSc)</h3>
+          <p>Undergraduate degree focused on Web development, Java, Database Management(MySQL)& Programming Fundamentals.</p>
+        </div>
+      </div>
+    </div>
+  <!-- <section id="education" class="section section-alt">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-tag">// 05 — education</span>
+      <h2 class="section-title">Education</h2>
+    </div> -->
+
+    <div class="timeline">
+      <div class="timeline-item glass" data-aos="fade-up">
+        <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="timeline-content">
+          <h3>Master of Computer Applications (MCA)</h3>
+          <p>Postgraduate degree focused on software development, data structures, algorithms, databases, and modern web technologies.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="resume-cta glass" data-aos="fade-up">
+      <div>
+        <h3>Want the full picture?</h3>
+        <p>Grab a copy of my resume for a detailed look at my education, skills, and projects.</p>
+      </div>
+      <a href="http://127.0.0.1:5500/Ashwini%20Resume.pdf" download="Ashwini Resume.pdf" class="btn btn-ghost"><i class="fa-solid fa-download"></i> Download Resume
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-tag">// 06 — contact</span>
+      <h2 class="section-title">Let's Work Together</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info" data-aos="fade-up">
+        <p class="contact-lead">I'm actively looking for my first full-time role as a Full Stack Developer. Feel free to reach out — I usually reply within a day.</p>
+        <div class="contact-item"><i class="fa-solid fa-envelope"></i> ashusep2004@gmail.com</div>
+        <div class="contact-item"><i class="fa-solid fa-location-dot"></i> Chennai</div>
+        <div class="contact-item"><i class="fa-brands fa-github"></i> github.com/ashwinidurai</div>
+        <div class="contact-item"><i class="fa-brands fa-linkedin"></i> https://www.linkedin.com/in/ashwini-durai-0b0363301</div>
+      </div>
+
+      <form class="contact-form glass" id="contact-form" data-aos="fade-up" data-aos-delay="150">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@email.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required placeholder="Let's talk about...">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <span class="btn-text"><i class="fa-solid fa-paper-plane"></i> Send Message</span>
+        </button>
+        <p class="form-status" id="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="#hero" class="nav-logo">Ashwini<span class="dot">.</span>durai</a>
+    <p class="footer-tag">Full Stack Developer · MCA Graduate</p>
+    <div class="footer-socials">
+      <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ashwini-durai-0b0363301" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="mailto:ashusep2004@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> Ashwini Durai. Built with HTML, CSS &amp; JavaScript.</p>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
